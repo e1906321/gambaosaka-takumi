@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/kadai.css">
+        <title>最終課題</title>
+    </head>
+
+    <body>
+        <div id=top class="header" >
+            <div class="header-logo">GAMBA OSAKA 応援サイト</div>
+            <div class="header-intro">このページの内容</div>
+            <div class="header-list">
+                <ul>
+                    <li class="ao">ガンバ大阪の概要</li>
+                    <li class="kuro">選手紹介</li>
+                    <li class="ao">ユニフォーム</li>
+                    <li class="kuro">ガンバ大阪クイズ！</li>
+                    <li class="ao">ご要望・問い合わせ</li>
+                </ul>
+                <div class="header-image">
+                    <img src="./pic/history.png" alt="概要" width="170px">
+                    <img src="./pic/player.png" alt="選手" width="180px">
+                    <img src="./pic/uniform.png" alt="ユニフォーム" width="170px">
+                    <img src="./pic/quiz.png" alt="クイズ" width="180px">
+                    <img src="./pic/mail.png" alt="問い合わせ" width="180px">
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="maincontent">
+            <h1 class="ao">ガンバ大阪の概要</h1>
+            <diV class="backgray">
+            <ol>
+            <li>大阪を拠点とするプロサッカークラブ</li>
+            <li>ガンバは日本語の「頑張る」とイタリア語の「脚」に由来する</li>
+            <li>ホームスタジアム：パナソニックスタジアム吹田</li>
+            <li>監督：松波正信</li>
+            <li>ライバルクラブ</li>
+             <ol>
+                 <li>セレッソ大阪（大阪ダービー）</li>
+                 <li>浦和レッズ（ナショナルダービー）</li>
+            </ol>
+            <li>マスコット:ガンバボーイ</li>
+            <li>歴史</li>
+            <ul>
+                <li>Jリーグ開幕時より加盟している10クラブ（オリジナル10）のひとつ</li>
+                <li>2005年に初タイトルとなるJ1リーグ優勝</li>
+                <li>2008年にAFCチャンピオンズリーグ制覇</li>
+                <li>2014年に国内三冠達成</h4>
+            </ul>
+            <li>主な過去の在籍選手</li>
+            <ol>
+                <li>永島昭浩(元めざましキャスターの永島優美の父)</li>
+                <li>エムボマ(1997年Jリーグ得点王)</li>
+                <li>大黒将志（2014年日本人最多となる20得点)</li>
+                <li>アラウージョ（2005年リーグ戦33得点は同年世界第1位）</li>
+                <li>稲本潤一（日本のW杯初勝の決勝ゴール）</li>
+                <li>宮本恒靖(2005年優勝時・ジーコJAPANの主将)</li>
+                <li>遠藤保仁（Master Of GAMBA)</li>
+                <li>堂安律(AFC U-19選手権MVP)</li>
+            </ol>
+            </ol>
+            </diV>
+            <div class="stadium">
+                <img src="./pic/staziam.jpg" alt="スタジアム" width="300px">
+                <p>※パナソニックスタジアム吹田の様子</p>
+            </div>
+            <div id="hikaku">
+                <h3>GAMBAとCEREZOの比較</h3>
+                <canvas id="compare"></canvas>
+                <p>※注意事項※</br>
+                    あくまでも個人の意見です<br>
+                このチャートに関する苦情は一切受け付けません</p>
+
+            </div>
+
+           
+            <h1 class="kuro" >選手紹介</h1>
+            <div>
+                <ul class="yoko">
+                    <li class="kuro2">GK</li>
+                    <ul class="backblue1">
+                        <li>1 東口順昭</li>
+                        <li class="new">22 一森純</li>
+                        <li>23 林瑞樹</li>
+                        <li class="new">25 石川慧</li>
+                        <li class="new">31 加藤大地</li>
+                    </ul>
+                    <li class="ao2">DF</li>
+                    <ul class="backblack1">
+                        <li>3 昌子源</li>
+                        <li>4 藤春廣輝</li>
+                        <li id=cap>5 三浦源太</li>
+                        <li>13 菅沼駿哉</li>
+                        <li class="new">16 佐藤耀太</li>
+                        <li>19 キムヨングォン</li><br>
+                        <li>24 黒川圭介</li>
+                        <li>27 高尾瑠</li>
+                        <li>40 シンウォノ</li>
+                    </ul>
+                    <li class=kuro2 >MF</li>
+                        <ul class="backblue2">
+                            <li class="new">6 チュセジョン</li>
+                            <li>8 小野瀬康介</li>
+                            <li>10 倉田秋</li>
+                            <li>14 福田湧矢</li>
+                            <li>15 井手口陽介</li>
+                            <li>17 奥野耕平</li><br>
+                            <li>21 矢島慎也</li>
+                            <li class="new">28 ウェリントンシウバ</li>
+                            <li>29 山本悠樹</li>
+                        </ul>
+                    <li class="ao2">FW</li>
+                    <ul class="backblack2">
+                        <li class="new">9 レアンドロペレイラ</li>
+                        <li>11 小野裕二</li>
+                        <li>18 パトリック</li>
+                        <li class="new">20 一美和成</li>
+                        <li>30 塚本大</li><br>
+                        <li class="new">32 チアゴアウベス</li>
+                        <li>33 臼井陽斗</li>
+                        <li>34 川崎修平</li>
+                        <li>39 宇佐美貴史</li>
+                    </ul>
+                </ul>
+                    <div class="sutamen">
+                        <img src="./pic/sutamen.png" alt='スタメン' width="400"> 
+                        <p>2021予想フォーメーション1</p>
+                    </div>
+                    <div class="sutamen2">
+                        <img src="./pic/sutamen2.png" alt='スタメン2' width="400">
+                        <p>2021予想フォーメーション2</p>
+                    </div>
+                    
+                
+               
+                <div id="fr">
+                <p>皆さんもぜひ予想フォーメーションを作ってみてね。<br>
+                    作った画像ファイルをページの最後にあるフォームから送ってくれると嬉しいです</p>
+                </div>
+                <div id="formation">
+                    <a href="http://yes-i-am.raindrop.jp/f/">フォーメーション作成サイトへ移動する</a>
+                </div>
+    
+            </div>
+            <h1 class="ao">2021シーズン：ユニフォーム</h1>
+            <div id="uni">
+                <p>HOME・AWAY・ACLの3種類展開<br>
+                著作権の関係でユニフォームの画像は<br>下記リンクからご確認ください。</p>
+            </div>
+            <nav class="link">
+                <ul>
+                   <li><a href="https://store.gamba-osaka.net/goods/1967/">ホーム</a></li>
+                   <li><a href="https://store.gamba-osaka.net/goods/2001/">アウェイ</a></li>
+                   <li><a href="https://qoly.jp/2021/01/22/gamba-osaka-2021-umbro-acl-home-kit-lfb-1">ACL</a></li>
+    
+                </ul>
+    
+            </nav>
+            <diV class="change">
+                <img src="./pic/onose.jpg" alt="小野瀬"   />
+                <img src="./pic/yonekura.jpg" alt="2014" />
+            </diV>
+            <div>
+                <p id="myuni">こちらの写真は<br>
+                    2020のホームユニホーム(オーセンティック）<br>
+                       2014年ホームユニフォーム（レプリカ）<br>
+                    （8番が2020のモデル / サイト作成者の私物）</p>
+            </div>
+
+            <div>
+                <p id="price">各種値段</p>
+            <table class="table1">
+                <tr>
+                    <th></th>
+                    <th>ホーム</th>
+                    <th>アウェイ</th>
+                    <th>ACL</th>
+                </tr>
+                <tr>
+                    <th>オーセンティック</th>
+                    <td colspan="2">26,400</td>
+                    <!-- <td>1-2</td> -->
+                    <td>取り扱いなし</td>
+                </tr>
+                <tr>
+                    <th>レプリカ</th>
+                    <td colspan="2">14,300</td>
+                    <!-- <td>14,300</td> -->
+                    <td>15,400</td>
+                </tr>
+                <tr>
+                    <th>ジュニア</th>
+                    <td colspan="2">12,000</td>
+                    <!-- <td></td> -->
+                    <td>取り扱いなし</td>  
+                </tr>
+            </table>
+            </div>
+            <div>
+                <p id=size>各サイズ</p>
+                <table>
+                    <tr>
+                    <th>サイズ</th>
+                    <th>SS-S</th>
+                    <th>M-L</th>
+                    <th>O-XO</th>
+                    <th>XA-XB</th>
+                    </tr>
+                    <tr>
+                    <th>身長(cm)</th>
+                    <td>160～165</td>
+                    <td>170～175</td>
+                    <td>180～185</td>
+                    <td>190～195</td>
+                    </tr>
+                    <tr>
+                    <th>着丈(cm)</th>
+                    <td>68</td>
+                    <td>71</td>
+                    <td>74</td>
+                    <td>77</td>
+                    </tr>
+                </table>
+    
+            </div>
+            <div id="caution">
+            <p>※注意事項※<br>
+            値段は線番号ナシを想定しています。１桁は＋3740・2桁は+4400かかります<br>
+            実際の商品の色と異なって見える場合がございます。そのため店頭での購入をオススメします。<br>
+            より詳しい情報は下記に記載のオンラインshopでお確かめください</p>
+            </div>
+            <div id=for-link>
+                <a href="#jump">各種リンク一覧へ</a>
+            </div>
+            
+    
+            <h1 class="kuro">ガンバ大阪クイズ！</h1>
+            <div>
+                
+                <h4 class="quizback">例題 ガンバ大阪に在籍したことがない選手は以下の４人のうち誰？</h4>
+                <p id="ex">アデミウソン・ルーカス・バレー<span id="messi">・メッシ</span></p>
+                <button class="cor" type="button" onclick="kesu()">正解選手を消す</button>
+                <h4 class="quizback">第1問 松波現監督が前回指揮を取っていた2012年の開幕時の監督は誰？</h4>
+                <div id=pop>
+                <button type="button" onclick="quiz1(1)" class="uncor">呂比須ワグナー</button>
+                <button type="button" onclick="quiz1(2)"class="cor">宮本恒靖</button>
+                <button type="button" onclick="quiz1(3)" class="uncor">レヴィー・クルピ</button>
+                <button type="button" onclick="quiz1(4)"class="cor">セホーン</button>
+                <h4 class="quizback">第２問 2021シーズンの初ゴールは誰？(ゼロックス・ACL有）</h4>
+                <button type="button" onclick="quiz2(0)" class="cor">パトリック</button>
+                <button type="button" onclick="quiz2(1)"class="uncor">宇佐美貴史</button>
+                <button type="button" onclick="quiz2(2)" class="cor">矢島慎也</button>
+                <button type="button" onclick="quiz2(3)"class="uncor">小野瀬康介</button> 
+                <p id="answershow"></p>
+                <h4 class="quizback">第３問 2007年ヤマザキナビスコカップ決勝でゴールを挙げた選手は？</h4>  
+                <button type="button" onclick="quiz3(1)" class="uncor">遠藤保仁</button>
+                <button type="button" onclick="quiz3(2)"class="cor">安田道大</button>
+                <button type="button" onclick="quiz3(3)" class="uncor">バレー</button>
+                <button type="button" onclick="quiz3(4)" class="cor">マグノアウベス</button> 
+    
+                </div>
+                
+               <h4 class="quizback">第４問 ガンバ大阪が初めてのJ2降格を経験したのは何年シーズン？</h4>
+               <forms action=""method="post" name="kizyutu">
+               <input type="text" name="answer" class="cor">
+               <input type="button" value="回答" class="uncor" onclick="check()">
+            </div>
+            
+            
+            <h1 class="ao">ご要望・問い合わせ</h1>
+            <div id=forms>
+                <form action="mailto:senaruna04@gmail.com" method="post" name="form1" enctype="text/plain">
+                    <div class="unline">
+                        <label>
+                            名前（ローマ字記載）：
+                            <input type="text" name="fanname" placeholder="" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="sex" value="female">
+                            女
+                        </label>
+                        <label>
+                            <input type="radio" name="sex" value="male">
+                            男
+                        </label>
+                        <label>
+                            <input type="radio" name="sex" value="other">
+                            その他
+                        </label>
+                    </div>
+                    <div>
+                        <label for="request" class="unline">要望</label>
+                        <textarea name="request" id="request" rows="10" cols="30" required></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="agreement" id="agree" required>
+                        <label for="agree">中傷や侮辱を含んだ内容ではありません。サイト内で本内容をシェアされても構わない</label>
+                        </div>
+                    <div>
+                        <label for="birth">生年月日</label>
+                        <input type="date" name="birthday" id="birth">
+                    </div>
+                    <div>
+                        <label>
+                            電話番号
+                            <input type="tel" name="telphone">
+                        </label>
+                    </div>
+                    <div>
+                            <label>
+                                添付ファイル（予想フォーメーション）
+                                <input type="file" name="tenpu" accept="image/*">
+                            </label>
+                    </div>
+                    <div id="apart">
+                        <input type="submit" value="送信" onclick="form_action()">
+                        <input type="reset" value="取り消す">
+                        <p>※下線が惹かれている箇所は必須です※</p>
+                        <p id="flow">ご協力ありがとうございます！</p>
+                    </div>
+            </div>
+    
+            </form>
+            <!-- ボツ施策 -->
+            <!-- <script language="javascript" type="text/javascript">
+                const func1 = (page) => {
+                  document.form1.action = 'form1.html';
+                  document.form1.submit();
+                };
+              </script> -->
+                <nav class="link">
+                    <p id=jump>ガンバ大阪公式の各種リンクはこちらから</p>
+                    <ul>
+                        <li><a href="https://www.gamba-osaka.net/">オフィシャルサイト</a></li>
+                        <li><a href="https://twitter.com/gamba_official">twitter</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCftKGb8v-BTXBNRUHMeHpBw">YOUTUBE</a></li>
+                        <li><a href="https://store.gamba-osaka.net/">SHOP</a></li>
+                    </ul>
+    
+                </nav>
+            <div class="for-top">
+                <a href="#top">ページへのトップへ戻る</a>
+            </div>  
+    
+            </div>
+
+        </div>
+        
+
+
+            
+        <div class="footer">
+            <div>GAMBA OSAKA 応援サイト</div>
+            <div class="footer-content">Copyright &copy; Takumi Yamamoto, All Rights Reserved</div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- chartライブラリ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js"></script>
+        <script src="js/kadai.js"></script>
+
+    </body>
+</html>

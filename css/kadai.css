@@ -1,0 +1,404 @@
+@charset "utf-8";
+
+body{
+    margin: 0 50 0 50;
+     color: white;
+        width: 92vw;
+        height: 100vh;
+        background-image: url(../pic/field.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        animation: move 10s infinite both;
+}
+@keyframes move{
+    0% {
+      background-size:100% auto;
+    }
+    50% {
+      background-size:120% auto;
+    }
+    100% {
+      background-size:100% auto;
+    }
+  }
+/* 全体に関わる */
+ul {
+    list-style: none;
+}
+a:hover{
+    font-size: 0.75cm;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:yellow;
+}
+a {
+    text-decoration: none;
+}
+.maincontent{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+/* header関係 */
+.header{
+    padding: 20px;
+}
+.header-logo{
+    text-align: center;
+    font-size: 50px;
+    background : repeating-linear-gradient(to right,
+    #1a1aff,
+    #1a1aff 31px,
+    #000000 0,
+    #000000 62px);
+}
+.header-intro{
+    font-size: 20px;
+    text-align: left;
+    border-bottom: blue solid 3px;
+    margin-top: 20px;
+    background: linear-gradient(black,blue);
+    width:180px;
+}
+.header-list li{
+    float: left;
+    padding:15px;
+    margin-right: 40px;
+}
+.header-image{
+    margin-right: 150px;
+}
+
+/* 見出し系 */
+h1{
+    text-align: center;
+}
+.ao{
+    color: white;
+    border-bottom: solid 3px black;
+    border-top: black solid 3px;
+    background-color: blue;
+}
+.kuro{
+    color: white;
+    border-bottom: solid 3px blue;
+    border-top: blue solid 3px;
+    background-color: black;
+}
+
+/* 概要系 */
+.backgray:hover{
+    background-color: gray; width: 600px;;
+}
+.stadium{
+    margin-left: 150px;  
+}
+ol li{
+    padding-bottom: 15px;
+}
+#hikaku{
+    width: 600px;
+}
+#hikaku:hover{
+    background-color:rgb(224, 239, 255);
+    color: black;
+}
+#hikaku p{
+    font-size:1%;
+}
+
+/* 選手紹介系 */
+.new::after{
+    display        : inline-block;       
+    content        : "new";              
+    background     : #990000;           
+    color          : #ffffff;            
+    font-weight    : bold;               
+    font-size      : 9t;               
+    letter-spacing : -1px;               
+    line-height    : 1;                  
+    vertical-align : top;                
+    margin         : 0;                  
+    padding        : 2px;              
+    transform      : scale(0.6) translateX(-20%);    
+    border-radius: 4cm;
+ }
+ #cap::after{
+        display        : inline-block;       
+        content        : "captain";              
+        background     :#ff66ff;           
+        color          : #ffffff;            
+        font-weight    : bold;               
+        font-size      : 9t;               
+        letter-spacing : -1px;               
+        line-height    : 1;                  
+        vertical-align : top;                
+        margin         : 0;                  
+        padding        : 2px;              
+        transform      : scale(0.6) translateX(-20%);    
+        border-radius: 4cm;
+ }
+.backblue1:hover{
+    background-color:blue;width:520px;
+}
+.backblack1:hover{
+    background-color:black;width:670px;
+}
+.backblue2:hover{
+    background-color:blue;width:630px;
+}
+.backblack2:hover{
+    background-color: black;width:620px;
+}
+ul.yoko ul li{
+    display: inline;
+}
+.ao2{
+    background-color: blue;
+    width: 30px;
+    border: black solid 1px;
+}
+.kuro2{
+    background-color: black;
+    width:30px;
+    border: blue solid 1px;
+}
+
+/* スタメン系 */
+.sutamen{
+    width: 300px;
+    margin-bottom: 10px;
+    padding:20px;
+    border : solid 3px blue;
+    text-align: center;
+}
+
+.sutamen2{
+    width: 300px;
+    margin-bottom: 10px;
+    padding:20px;
+    border : solid 3px black;
+    text-align: center;
+}
+.sutamen p{
+    background-color: black;
+}
+.sutamen2 p{
+    background-color:blue;
+}
+.sutamen img, .sutamen2 img {
+    width: 60%;
+}
+#fr{
+    background-color: gray;width: 600px;
+}
+
+#formation{
+    padding: 4px;
+    border: solid 1px black;
+    background: linear-gradient(#2559c9, #161010);
+    border-radius: 5px;
+    width:300px;
+}
+
+#for-link{
+    padding: 4px;
+    border: solid 1px black;
+    background: linear-gradient(#2559c9, #161010);
+    border-radius: 5px;
+    width:130px;
+}
+
+/* ユニフォーム系 */
+table{
+    border: 2px solid white;
+}
+td{
+    border: 2px solid white;
+}
+th{
+    border: 2px solid white;
+}
+
+#uni{
+    background-color: gray;width: 280px;
+}
+#caution{
+    background-color: gray;width: 700px;
+}
+#myuni{
+    background-color: grey;width: 400px;
+}
+#price{
+    background: linear-gradient(blue,black);
+    width:70px;
+    border: 1px solid white;
+    margin-left: 175px;
+}
+#size{
+    background: linear-gradient(blue,black);
+    width:70px;
+    border: 1px solid white;
+    margin-left: 175px;
+}
+#for-link{
+    padding: 4px;
+    border: solid 1px black;
+    background: linear-gradient(#2559c9, #161010);
+    border-radius: 5px;
+    width:130px;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+tr:nth-child(odd){
+    background-color: black;
+}
+tr:nth-child(even){
+    color:yellow;
+}
+tr:nth-child(odd){
+    color: white;
+}
+.table1{
+    margin-bottom: 20px;
+}
+td{
+    text-align: center;
+}
+.change {
+    position   : relative;
+    overflow   : hidden;
+    width      : 400px;
+    height     : 400px;
+  }
+ .change img {
+    display    : block;
+    position   : absolute;
+    width      : inherit;
+    height     : inherit;
+    opacity    : 0;
+    animation  : slideAnime 6s ease infinite;
+  }
+   
+  
+.change img:nth-of-type(1) { animation-delay: 0s }
+.change img:nth-of-type(2) { animation-delay: 3s }
+   
+@keyframes slideAnime{
+     0% { opacity: 0 }
+     5% { opacity: 1 }
+    45% { opacity: 1 }
+    50% { opacity: 0 }
+   100% { opacity: 0 }
+}
+
+/* クイズコーナー */
+#pop{
+    display: inline;
+    margin: 0 30px 0 0;
+    padding: 4px;
+    border: 2px solid #000000;
+    background: linear-gradient(#2559c9, #161010);
+}
+.quizback{
+    background: linear-gradient(silver,white);
+    width: 530px;
+    color: black;
+}
+.cor{
+    background-color: rgb(35, 24, 192);
+    color: white;
+}
+.uncor{
+    background-color: black;
+    color: white;
+}
+#ex{
+    background: linear-gradient(#2559c9, #161010);
+    width: 330px;
+}
+#answershow{
+    background: linear-gradient(silver,white);
+    color:red;
+    width:530px;
+}
+
+
+/* 問い合わせフォーム */
+#forms:hover{
+    background-image: url(../pic/onegai.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 1cm;
+    background-size: 40%;
+    background-color: gray;width: 500px;
+}
+.unline{
+    text-decoration: underline black;
+}
+#apart{
+    margin-top: 8px;
+}
+
+#forms:hover #flow{
+    display     : inline-block;
+    white-space : nowrap;
+    line-height : 1em;
+    animation   : scrollAnime 4s linear infinite alternate;
+  }
+  @keyframes scrollAnime{
+      0% {
+          margin-left: 100%;
+          transform  : translateX(-100%)
+         }
+    100% {
+          margin-left: 0;
+          transform  : translateX(0)
+         }
+  }
+
+/* 各種リンク */
+#jump{
+    background-color: gray;width: 330px;
+}
+.for-top{
+    padding: 4px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: linear-gradient(#2559c9, #161010);
+    width: 180px;
+}
+.link >ul >li{
+    display: inline;
+    margin-right:20px;
+    padding: 4px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: linear-gradient(#2559c9, #161010);
+
+}
+
+/* footer関係 */
+.footer{
+    background : repeating-linear-gradient(to right,
+    #1a1aff,
+    #1a1aff 31px,
+    #000000 0,
+    #000000 62px);
+    padding: 20px 0px;
+    margin-left: 30px;
+    margin-right: 30px
+}
+.footer-content {
+    float: right;
+  }
